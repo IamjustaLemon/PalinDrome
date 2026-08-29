@@ -22,7 +22,8 @@ public class PalinDrome{
         }
         return true;
     }
-    public static int countPD(String[]words){
+    // Loops through the array and counts how many words are palindromes
+public static int countPD(String[]words){
         int count=0;
         for (int i =0;i<words.length; i++){
             if(isPalinDrome(words[i])){
